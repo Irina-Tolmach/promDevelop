@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "Money",
+    "module": "money-library",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "money-library-1.0.jar",
+          "url": "money-library-1.0.jar",
+          "size": 2068,
+          "sha512": "86697b00964f8da9a1794b8182dc3febf72dbd18350bd0269cae54c4dff8520cdffdbf1a26c78d2d510aee507e0c1a7dcfc7eacb24e0013ec9f47ff1adc3857d",
+          "sha256": "e2cf17afd5c8151f0cf89c085810199dfb8ff8e369d76580f8b3735047bf7da8",
+          "sha1": "c45eb15b6120eb9e0f4be79867fe225f74461824",
+          "md5": "cf377e06e8a31e6332c53f6bdcf0fc2c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.3-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "money-library-1.0.jar",
+          "url": "money-library-1.0.jar",
+          "size": 2068,
+          "sha512": "86697b00964f8da9a1794b8182dc3febf72dbd18350bd0269cae54c4dff8520cdffdbf1a26c78d2d510aee507e0c1a7dcfc7eacb24e0013ec9f47ff1adc3857d",
+          "sha256": "e2cf17afd5c8151f0cf89c085810199dfb8ff8e369d76580f8b3735047bf7da8",
+          "sha1": "c45eb15b6120eb9e0f4be79867fe225f74461824",
+          "md5": "cf377e06e8a31e6332c53f6bdcf0fc2c"
+        }
+      ]
+    }
+  ]
+}
